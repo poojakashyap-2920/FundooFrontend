@@ -1,0 +1,38 @@
+<div class="header-container">
+    <div class="header">
+        <div class="header-content">
+            <mat-icon (click)="handleDrawerClick()" class="menu-icon" svgIcon="menu-icon" aria-hidden="false" aria-label="Menu SVG icon"></mat-icon>
+            <img src="assets/keep1.png" alt="Fundoo Logo" class="keep-img">
+            <span class="header-title">Keep</span>
+        </div>
+        <div class="search-container">
+            <mat-icon class="search-icon" svgIcon="search-icon" aria-hidden="false" aria-label="Search SVG icon"></mat-icon>
+            <input type="text" [(ngModel)]="searchString" (input)="handleSerachString()" class="search-input" placeholder="Search...">
+        </div>
+        <div class="right-icons">
+            <mat-icon class="refresh-icon" svgIcon="refresh-icon" aria-hidden="false" aria-label="Refresh SVG icon"></mat-icon>
+            <mat-icon class="list-view-icon" svgIcon="list-view-icon" aria-hidden="false" aria-label="List SVG icon"></mat-icon>
+            <mat-icon class="setting-icon" svgIcon="setting-icon" aria-hidden="false" aria-label="Settings SVG icon"></mat-icon>
+        </div>
+      
+        <div class="right-icon-end">
+            <mat-icon class="other-menu-icon" svgIcon="other-menu-icon" aria-hidden="false" aria-label="Refresh SVG icon"></mat-icon>
+            <span class="account-initial" [mat-menu-trigger-for]="moreMenu" > 
+                <img src="assets/pooja.jpg" alt="Fundoo Logo" class="keep-img" >
+            </span>
+        </div>
+
+         <mat-menu #moreMenu="matMenu" >
+            <div class="user-details-cnt">
+          
+              <span>{{Name}}</span>
+              
+              <span>{{Email}}</span>
+              <br> 
+              <button mat-flat-button color="warn" (click)="handleLogout()">Logout</button> 
+            </div>
+            
+        </mat-menu> 
+        
+    </div>
+</div>

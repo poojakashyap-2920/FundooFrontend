@@ -1,0 +1,95 @@
+
+
+<!-- <mat-drawer-container  [hasBackdrop]="false" class="side-naaav" style="height:calc(100vh -37px);">
+    <mat-drawer #drawer [mode]="'over'" [opened]="drawerState">
+        <div class="main-div">
+            <div class="side-nav-icon-lable-cnt">
+                <mat-icon class="note-icon" svgIcon="note-icon" aria-hidden="false" aria-label="Note SVG icon"></mat-icon>
+              <span>Notes</span>
+            </div>
+
+            <div class="side-nav-icon-lable-cnt">
+                <mat-icon class="reminder-icon" svgIcon="reminder-icon" aria-hidden="false" aria-label="Reminder SVG icon"></mat-icon>
+                <span>Reminders</span>
+            </div>
+
+            <div class="side-nav-icon-lable-cnt">
+                <mat-icon class="edit-icon" svgIcon="edit-icon" aria-hidden="false" aria-label="Edit SVG icon"></mat-icon>
+                <span>Edit labels</span>
+            </div>
+
+            <div class="side-nav-icon-lable-cnt" routerLink="/dashboard/archive">
+                <mat-icon class="archive-icon" svgIcon="archive-icon" aria-hidden="false" aria-label="Archive SVG icon"></mat-icon>
+                <span>Archive</span>
+            </div>
+
+            <div class="side-nav-icon-lable-cnt" routerLink="/dashboard/trash">
+                <mat-icon class="trash-icon" svgIcon="trash-icon" aria-hidden="false" aria-label="Trash SVG icon"></mat-icon>
+                <span>Trash</span>
+            </div>
+        </div>
+
+    </mat-drawer>
+    <mat-drawer-content>
+        <div class="icons-cnt">
+            <mat-icon class="note-icon" routerLink="/dashboard/notes" svgIcon="note-icon" aria-hidden="false" aria-label="Note SVG icon"></mat-icon>
+            <mat-icon class="reminder-icon" svgIcon="reminder-icon" aria-hidden="false" aria-label="Reminder SVG icon"></mat-icon>
+            <mat-icon class="edit-icon" svgIcon="edit-icon" aria-hidden="false" aria-label="Edit SVG icon"></mat-icon>
+            <mat-icon class="archive-icon"  routerLink="/dashboard/archive" svgIcon="archive-icon" aria-hidden="false" aria-label="Archive SVG icon"></mat-icon>
+            <mat-icon class="trash-icon" routerLink="/dashboard/trash" svgIcon="trash-icon" aria-hidden="false" aria-label="Trash SVG icon"></mat-icon>
+        </div>
+
+
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+  </mat-drawer-container> -->
+
+
+
+
+  <mat-drawer-container  [hasBackdrop]="false" class="side-naaav">
+    <mat-drawer #drawer [mode]="'over'" [opened]="drawerState">
+        <div class="main-div">
+            <div class="side-nav-icon-lable-cnt" routerLink="/dashboard/notes">
+                <mat-icon class="note-icon" svgIcon="note-icon" aria-hidden="false" aria-label="Note SVG icon"></mat-icon>
+              <span>Notes</span>
+            </div>
+
+            <div class="side-nav-icon-lable-cnt">
+                <mat-icon class="reminder-icon" svgIcon="reminder-icon" aria-hidden="false" aria-label="Reminder SVG icon"></mat-icon>
+                <span>Reminders</span>
+            </div>
+
+            <div class="side-nav-icon-lable-cnt">
+                <mat-icon class="edit-icon" svgIcon="edit-icon" aria-hidden="false" aria-label="Edit SVG icon"></mat-icon>
+                <span>Edit labels</span>
+            </div>
+
+            <div class="side-nav-icon-lable-cnt" routerLink="/dashboard/archive">
+                <mat-icon class="archive-icon" svgIcon="archive-icon" aria-hidden="false" aria-label="Archive SVG icon"></mat-icon>
+                <span>Archive</span>
+            </div>
+
+            <div class="side-nav-icon-lable-cnt" routerLink="/dashboard/trash">
+                <mat-icon class="trash-icon" svgIcon="trash-icon" aria-hidden="false" aria-label="Trash SVG icon"></mat-icon>
+                <span>Trash</span>
+            </div>
+        </div>
+
+    </mat-drawer>
+    <mat-drawer-content style="width: 100%;">
+        <div style="display: flex; width: 100%;">
+
+            <div class="icons-cnt">
+                <mat-icon class="note-icon" routerLink="/dashboard/notes" svgIcon="note-icon" aria-hidden="false" aria-label="Note SVG icon"></mat-icon>
+                <mat-icon class="reminder-icon" svgIcon="reminder-icon" aria-hidden="false" aria-label="Reminder SVG icon"></mat-icon>
+                <mat-icon class="edit-icon" svgIcon="edit-icon" aria-hidden="false" aria-label="Edit SVG icon"></mat-icon>
+                <mat-icon class="archive-icon"  routerLink="/dashboard/archive" svgIcon="archive-icon" aria-hidden="false" aria-label="Archive SVG icon"></mat-icon>
+                <mat-icon class="trash-icon" routerLink="/dashboard/trash" svgIcon="trash-icon" aria-hidden="false" aria-label="Trash SVG icon"></mat-icon>
+            </div>
+            
+            
+            <router-outlet></router-outlet>
+        </div>
+    </mat-drawer-content>
+  </mat-drawer-container>

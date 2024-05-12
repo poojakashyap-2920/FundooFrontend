@@ -1,0 +1,36 @@
+// .main-container {
+//     display: flex;
+//     flex-direction: row;
+//     margin-left: 400px;
+//     gap: 5%;
+//     position: relative;
+  
+// }
+
+// .side-nav {
+//     width: 250px; /* Set width for side navbar */
+// }
+
+// .note-container {
+//     flex-grow: 1; /* Allow the note container to grow and take up remaining space */
+//     overflow: auto; /* Add overflow behavior if needed */
+// }
+//   // flex-wrap: wrap;
+
+
+
+::ng-deep .app-notes-container-cnt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.notecard{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: -1000px;
+    gap:10%;
+}
+

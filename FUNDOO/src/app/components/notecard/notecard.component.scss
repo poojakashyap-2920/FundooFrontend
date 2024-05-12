@@ -1,0 +1,160 @@
+
+
+.note-card-outer-cnt{
+  display: flex;
+  flex-direction: row;
+  // gap:25px;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 50px;
+  width:96%;
+  flex-wrap: wrap;
+  
+
+}
+
+.note-card-main {
+display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 336px;
+  margin: 7px -2px; 
+  min-height: 92px;
+  max-height: fit-content;
+  padding: 36px;
+  transition: box-shadow 0.3s;
+}
+
+.text {
+  margin-bottom: 10px;
+  margin-top: -18px;
+  size: 10px;
+
+}
+
+.icons {
+  position: absolute;
+  margin-left: 28px;
+  margin-top: 79px;
+  display: flex;
+  gap: 28px;
+}
+
+.pin-icon {
+  position: absolute;
+  margin-left: 270px;
+  margin-bottom: 35px;
+}
+
+.delete-restore-cnt{
+  margin-left: 230px;
+  margin-top: 35px;
+}
+.more-icons-options{
+  display: flex;
+  flex-direction: column;
+}
+
+.color-palate-cnt{
+  display: flex;
+  flex-direction: row;
+  //justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 5px;
+  border-radius: 8px;
+  width: 270px;
+  gap:20px;
+
+}
+.col1{
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 200px;
+  height: 50px;
+  width:50px;
+}
+.col2{
+  background-color: #FAAFA8;
+  border: 1px solid #FAAFA8;
+  border-radius: 200px;
+  height: 50px;
+  width:50px;
+}
+.col3{
+  background-color: #F39F76;
+  border: 1px solid #F39F76;
+  border-radius: 200px;
+  height: 50px;
+  width:50px;
+}
+.col4{
+background-color: #FFF8B8;
+  border: 1px solid #FFF8B8;
+  border-radius: 200px;
+  height: 50px;
+  width:50px;
+}
+.col5{
+background-color: #E2F6D3;
+  border: 1px solid #E2F6D3;
+  border-radius: 200px;
+  height: 50px;
+  width:50px;
+}
+
+.col6{
+background-color: #B4DDD3;
+  border: 1px solid #B4DDD3;
+  border-radius: 200px;
+  height: 50px;
+  width:50px;
+}
+
+.col7{
+background-color: #D4E4ED;
+  border: 1px solid #D4E4ED;
+  border-radius: 200px;
+  height: 50px;
+  width:50px;
+}
+
+.col8{
+background-color: #AECCDC;
+  border: 1px solid #AECCDC;
+  border-radius: 200px;
+  height: 50px;
+  width:50px;
+}
+
+.col9{
+background-color: #D3BFDB;
+  border: 1px solid #D3BFDB;
+  border-radius: 200px;
+  height: 50px;
+  width:50px;
+}
+
+.col10{
+background-color: #F6E2DD;
+  border: 1px solid #F6E2DD;
+  border-radius: 200px;
+  height: 50px;
+  width:50px;
+}
+.col11{
+background-color: #E9E3D4;
+  border: 1px solid #E9E3D4;
+  border-radius: 200px;
+  height: 50px;
+  width:50px;
+}
+
+.col12{
+background-color: #EFEFF1;
+  border: 1px solid #EFEFF1;
+  border-radius: 200px;
+  height: 50px;
+  width:50px;
+}

@@ -1,0 +1,87 @@
+
+
+// .side-naaav{
+//     height: 100vh;
+// }
+
+// .mat-icon {
+//     margin-right: 40px; /* Increase the space between icon and text */
+//     margin-bottom:20px;
+//     font-size: 24px; /* Increase the size of the icon */
+//     margin-top: 30px;
+// }
+
+// .mat-drawer{
+//     width: 280px;
+//     height:100%;
+// }
+
+// .mat-drawer-content{
+//     height: 400px;
+//     // overflow-y: auto;   
+// }
+
+// .main-div :hover
+// {
+//     background-color: #feefc3;
+//     border-radius: 0px 50px 50px 0px;
+// }
+
+// .icons-cnt
+// {
+//     display: flex;
+//     justify-content: left;
+//     flex-direction: column;
+//     margin-left: 15px;
+// }
+
+//*****************************
+
+::ng-deep .app-notes-leftside-cnt{
+    width: 100%;
+    height: calc(100vh - 58px);
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.side-naaav{
+    width: 100%;
+
+}
+
+.mat-icon {
+    margin-right: 40px; /* Increase the space between icon and text */
+    margin-bottom:20px;
+    font-size: 24px; /* Increase the size of the icon */
+    margin-top: 30px;
+}
+
+.mat-drawer{
+    width: 280px;
+    height:100%;
+}
+
+.mat-drawer-content{
+    // height: 400px;
+    width: 100%;
+    // overflow-y: auto;   
+}
+
+.main-div :hover
+{
+    background-color: #feefc3;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.icons-cnt
+{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 15px;
+    height: 60%;
+    gap: 5%;
+//     width:40px;
+}

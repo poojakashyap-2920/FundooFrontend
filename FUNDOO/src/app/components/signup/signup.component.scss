@@ -1,0 +1,66 @@
+.main-form{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    border: 1px solid black;
+    width: 800px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 300px;
+text-align: center;
+padding: 20px;
+}
+.form-content{
+
+display: flex;
+flex-direction: column;
+}
+.fundo{
+    margin-left: -120px;
+    margin-bottom: 10px;
+    color: goldenrod;
+}
+.fundolabel{
+    display: flex;
+    flex-direction: column;
+    margin-left: -250px;
+}
+.namelabel{
+    margin-left:-20px;
+    margin-top: 20px;
+
+}
+.lastnamelabel{
+
+ margin-left:20px;
+}
+.usernamelabel{
+    width: 440px;
+}
+.errorusername{
+    margin-top: -20px;
+    margin-left: -200px;
+}
+.passwordfield{
+    margin-top: 20px;
+}
+.passwordf{
+margin-left: -15px;
+}
+.confirmpassword{
+ margin-left: 20px;
+}
+.errorpassword{
+    margin-top: -60px;
+    margin-left: -20px;
+}
+.registerbtn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+img{
+    width: 230px;
+    height: 250px;
+    margin-top: 40px;
+}

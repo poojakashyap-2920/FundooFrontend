@@ -1,0 +1,50 @@
+::ng-deep .app-login-cnt{
+    height: 100vh;
+    display: flex;
+}
+
+
+.login-form-main-cnt {
+    width: 500px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    margin: auto;
+    padding: 25px;
+    gap: 10px;
+
+  
+    font-family: Arial, sans-serif; /* Change the font family as needed */
+    font-size: 16px; /* Change the font size as needed */
+    font-weight: bold; /* Change the font weight as needed */
+    font-style: round($number: 1); 
+}
+
+
+
+.fundoo-text {
+    color: goldenrod;
+    font-size: 1.9em; /* Adjust the font size as needed */
+}
+.sign-text{
+    font-size: 1.9em;
+}
+
+.login-field-forgot-btn-cnt
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mat-form-field{
+    width: 100%;
+}
+.login-signup-btn-cnt{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

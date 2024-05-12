@@ -1,0 +1,75 @@
+.mainNote-cnt{
+  display: flex;
+  margin-top: 100px;
+  margin-left:-90px;
+}
+
+.box {
+  display: flex;
+  padding: 19px;
+  box-shadow: 0px 2px 5px rgb(111, 106, 106)  ;
+  border-radius: 10px;
+  width: 550px; 
+  height: 20px;
+  margin-left: 503px;
+  margin-top: 0px;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+
+.notes-cnt{
+  padding: 10px;
+  border-radius: 10px;
+  width: 550px; 
+  height:100px;
+  margin-left: 510px;
+  margin-top: 100px;
+  box-shadow: 0px 2px 5px rgb(111, 106, 106) ;
+}
+
+.note-icons-cnt {
+  display: flex;
+  gap: 32px; 
+  // justify-content: center;
+  margin-top: -4px;  
+  margin-left: -157px; 
+}
+
+.mat-icon{
+  width:20px;
+  height:20px;
+}
+
+
+
+.notes-cnt input {
+  display: block; /* Display inputs as block elements */
+  margin-bottom: 12px; /* Add some bottom margin to create space between inputs */
+  font-size: 15px;
+}
+
+
+.icons{
+  display: flex;
+  direction: row;
+  gap: 30px; 
+  margin-top: 20px;
+}
+
+.close-button{
+  margin-top: -10px;
+  margin-left: 160px;
+
+}
+  
+.notes-cnt input {
+  border: none;
+  outline: none; /* Optional: removes the outline when input is focused */}
