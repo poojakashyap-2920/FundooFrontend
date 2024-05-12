@@ -30,7 +30,6 @@ export class TrashContainerComponent implements OnInit {
     if ($event.action === "trash") {
       this.notesList = this.notesList.filter(note => note.noteId != $event.data.noteId);
     }
-  }
-  
+  } 
 
 }

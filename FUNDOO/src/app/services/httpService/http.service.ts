@@ -50,15 +50,14 @@ getAllNotesApi(): Observable<any> {
 
   DeleteNoteApi(id:number = 0):Observable<any>{
     return this.http.patch(`https://localhost:7231/api/Note/DeleteNote/${id}`,{headers:this.authHeader})
-  }
+   }
 
   // UpdateColor(id: number, color: string): Observable<any> {
   //   return this.http.patch(`https://localhost:7231/api/Note/UpdateColor/${id}${color}`,{}, { headers: this.authHeader });
   // }
 
   UpdateColor(id: number, color: string): Observable<any> {
-    return this.http.patch(`https://localhost:7231/api/Note/UpdateColor/${id}?color=${encodeURIComponent(color)}`, {}, { headers: this.authHeader });
-    
+    return this.http.patch(`https://localhost:7231/api/Note/UpdateColor/${id}?color=${encodeURIComponent(color)}`, {}, { headers: this.authHeader });  
   
 }
 

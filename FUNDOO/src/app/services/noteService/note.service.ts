@@ -42,12 +42,8 @@ export class NoteService {
 
   UpdateColorApiCall(id:number,color:string): Observable<any>
   {
-console.log(id,color);
-return this.httpService.UpdateColor(id,color);
+    console.log(id,color);
+    return this.httpService.UpdateColor(id,color);
   }
-
-
-
-
 
 }
